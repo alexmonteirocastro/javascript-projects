@@ -1,0 +1,105 @@
+/*styling for general DOM elements*/
+
+body{
+	display: block;
+    margin-right: 15%;
+    margin-left: 15%;
+    max-width: 70%;
+    /*font settings*/
+    font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+header{
+	text-align: center;
+	padding: 1%;
+    background-color: #134fa0;
+    color: white;
+}
+
+footer{
+	text-align: center;
+}
+
+li{
+	height: 50px;
+	line-height: 50px;
+}
+
+button{
+	border-radius: 5px;
+	padding: .5em 1em;
+    font-weight: bold;
+    color: #E95D0F;
+    background: white ;
+    border: 5px solid #E95D0F;
+}
+
+button:hover {
+    color: white;
+    background-color: #E95D0F;
+}
+
+fieldset{
+	border-radius: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 2%;
+	/*border appearance settings*/
+	border: 5px solid orange;
+}
+
+article{
+	padding-top: 1%;
+	padding-bottom: 1%;
+    color: #ffffff;
+    background: #2eab44;
+}
+
+footer{
+	background-color: #a09c9c;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+/*styling for specific elements (by ID) */
+
+.description p{
+	margin-left: 2%
+}
+
+.toDoList-area{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: #a79a47;
+}
+
+#todoItem{
+	padding: .5em 1em;
+    font-weight: bold;
+    background: white ;
+    border: 5px solid orange;
+}
+
+.addForm{
+	padding-bottom: 3%;
+}
+
+#clearList{
+	margin: auto;
+	display: block;
+}
+
+.rohlik{
+  text-decoration: line-through;
+}
+
+.deleting{
+	display: inline-block;
+	float: right;
+	/*margin-left: 5%; I could not find a way to have it aligned on the right*/
+	border-radius: 50%;
+	padding: 1% 2%;
+}
+

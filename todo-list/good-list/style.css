@@ -1,0 +1,119 @@
+
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 2px;
+	font-size: 1.5em;
+}
+
+#subtitle {
+	text-transform: uppercase;
+	color: rgba(0,0,0, 0.3);
+	font-size: 0.9em;
+}
+
+input, button {
+	outline: none;
+}
+
+/* input and button */
+.size {
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+.inputarea {
+	padding-left: 5px;
+	color: rgba(0,0,0, 0.5);
+}
+
+.inputarea::placeholder {
+	color: rgba(0,0,0, 0.2);
+	font-size: 16px;
+	font-weight: 200;
+}
+
+.btn {
+	background-color: #515151;
+	color: rgba(212,243,233,1);
+	color: #c2c2c2;
+	cursor: pointer;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	vertical-align: bottom;
+}
+
+.btn:hover {
+	color: rgba(212,243,233,1);
+	color: #fff;
+}
+
+/* List */
+.goodslist {
+	list-style: none;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-top: 30px;
+	color: rgba(0,0,0, 0.5);
+}
+
+.goodslist li {
+	width: 350px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	font-weight: 200;
+}
+
+.goodslist li span {
+	cursor: pointer;
+}
+
+.checkbox {
+	margin-right: 10px;
+	zoom: 1.2; /*not supported by firefox / couldn't find workaround*/
+}
+
+.done {
+	text-decoration: line-through;
+	text-decoration-color: rgba(0,0,0, 0.5);
+}
+
+.delete {
+	border-radius: 5px;
+	border: none;
+	text-decoration:none !important;
+    display:inline-block;
+	float: right;
+	text-transform: uppercase;
+	padding: 5px;
+	box-shadow: 1px 1px 2px 0px #252525;
+	color: rgba(0,0,0,0.4);
+	margin-top: -5px;
+	cursor: pointer;
+	background-color: #F0F0F0;
+}
+
+.delete:hover {
+	color: rgba(0,0,0,1);
+}
+
+#clear {
+	
+}
+
+#clear-list {
+	border-radius: 5px;
+	border: none;
+	text-transform: uppercase;
+	padding: 5px;
+	box-shadow: 1px 1px 2px 0px #252525;
+	color: rgba(0,0,0,0.4);
+	cursor: pointer;
+	background-color: #F0F0F0;
+	margin-left: 40px;
+	font-size: 12px;
+}

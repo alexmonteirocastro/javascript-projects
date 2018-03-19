@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To-do List</title>
+
+	
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="script.js" async></script>
+
+</head>
+<body>
+
+	<header>
+		<h1>To-Do List</h1>
+	</header>
+
+	<main>
+
+		<!--Short description of the work done here -->
+		<article class="description">
+			<p>This is my first dynamic to-do list, developed using HTML5, CSS and plain javaScript. No javaScript frameworks have been used to develop this application.</p>			
+		</article>
+
+		<section class="toDoList-area">
+			
+			<!--Form field where we can type new items and submit to add them to the list -->
+			<div class="addForm" id="addForm">
+				<form name="addItem" align="center">
+					<input type="text" name="todoItem" id="todoItem" autofocus>
+					<button id="newItem">Add to the List</button>
+				</form>
+			</div>
+
+			<!--This is the list -->
+			<div class="theList" class="sortable-list">
+
+				<fieldset class="list-wrapper" id="list-wrapper">
+					<legend>Things to do:</legend>
+						<ul id="listItems">
+							
+						</ul>
+
+				</fieldset>
+
+				<button id="clearList">Clear List</button>
+				
+			</div>
+
+		</section>
+		
+	</main>
+
+	<footer>
+		<p>This is my first javaScript challenge proposed by David and Petr.</p>
+	</footer>
+
+</body>
+</html>

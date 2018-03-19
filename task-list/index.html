@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task List</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+
+<body>
+    <div class="showcase">
+        <!-- Cabeçalho da Lista -->
+        <div class="hlava">
+            <h1>This is the To-Do List</h1>
+        </div>
+
+        <!-- Area de input -->
+        <div class="input-area">
+            <p>
+                Type Something: <input type="text" name="new-item" id="itemToAdd">
+            </p>
+            <button class="input-btn" id="addToList">Add To List</button>
+            <button class="input-btn oculto" id="clearList">Clear List</button>
+        </div>
+
+        <!-- Lista Gerada -->
+        <div class="list-wrapper">
+            <div class="list-area" id="theList">
+                <!---->
+                <div class="list-item">
+                    <div class="item-checkbox">
+                        <p><input type="checkbox" id="box1"><label for="box1"></label></p>
+                    </div>
+                    <div class="item-content">
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="item-btn">
+                        <p><i class="fas fa-trash-alt"></i> <i class="fas fa-edit"></i></p>
+                    </div>
+                </div>
+                <div class="list-item">
+                    <div class="item-checkbox">
+                        <p><input type="checkbox" id="box2"><label for="box2"></p>
+                    </div>
+                    <div class="item-content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, eveniet?</p>
+                    </div>
+                    <div class="item-btn">
+                        <p><i class="fas fa-trash-alt"></i> <i class="fas fa-edit"></i></p>
+                    </div>
+                </div>
+                <div class="list-item">
+                    <div class="item-checkbox">
+                        <p><input type="checkbox" id="box3"><label for="box3"></p>
+                    </div>
+                    <div class="item-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consectetur debitis asperiores ad ea distinctio!</p>
+                    </div>
+                    <div class="item-btn">
+                        <p><i class="fas fa-trash-alt"></i> <i class="fas fa-edit"></i></p>
+                    </div>
+                </div>
+                <div class="list-item">
+                    <div class="item-checkbox">
+                        <p><input type="checkbox" id="box4"><label for="box4"></p>
+                    </div>
+                    <div class="item-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A incidunt quidem similique aperiam beatae, asperiores commodi iure porro illum culpa doloremque officiis voluptatibus, nisi architecto..</p>
+                    </div>
+                    <div class="item-btn">
+                        <p><i class="fas fa-trash-alt"></i> <i class="fas fa-edit"></i></p>
+                    </div>
+                </div>
+                <div class="list-item">
+                    <div class="item-checkbox">
+                        <p><input type="checkbox" id="box5"><label for="box5"></p>
+                    </div>
+                    <div class="item-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, placeat velit nesciunt ab repellendus distinctio labore veniam sint nobis sequi debitis natus expedita exercitationem iste alias sit tempore dolorem doloribus. Laboriosam
+                            consequuntur natus dolores fuga?</p>
+                    </div>
+                    <div class="item-btn">
+                        <p><i class="fas fa-trash-alt"></i> <i class="fas fa-edit"></i></p>
+                    </div>
+                </div>
+                <!---->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
