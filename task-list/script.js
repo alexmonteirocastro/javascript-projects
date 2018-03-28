@@ -30,18 +30,6 @@ function createDiv(classe) {
     return div;
 }
 
-//append a child node
-function childNode(parent, child) {
-    var node = createDiv(child);
-    node.innerHTML = "<div class=\"item-checkbox\" onclick=\"crossOut()\"><p><input type=\"checkbox\" id=\"box" + index + "\"><label for=\"box" + index + "\"></label></p></div><div class=\"item-content\"><p id=\"conteudo" + index + "\">" + inputText.value + "</p></div><div class=\"item-btn\"><p><i class=\"fas fa-trash-alt\"></i> <i class=\"fas fa-edit\"></i></p></div>";
-
-    function childNode(parent, child) {
-        var node = createDiv(child);
-        parent.appendChild(node);
-    };
-    parent.appendChild(node);
-}
-
 //adds the input text value to the tasks array
 function addItemToList() {
 
